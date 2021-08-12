@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](https://rest-node-hihihoho.herokuapp.com/files/image/mQiRxfGX-XIc4TpQ-Screen Shot 2021-08-12 at 23.06.51.png)
+![screenshot](https://rest-node-hihihoho.herokuapp.com/files/image/mQiRxfGX-XIc4TpQ-Screen%20Shot%202021-08-12%20at%2023.06.51.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 

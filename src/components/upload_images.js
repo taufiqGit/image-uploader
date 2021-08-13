@@ -3,15 +3,21 @@ import BoxWrap from './box_wrap'
 import DragDropFiles from './drag_drop_file'
 
 function FileUpload ({ onsubmit }){
-    
+    const format = ["image/png", "image/jpeg", "image/svg+xml"]
+
     const onchanges =(e)=>{
-        //console.log(e.target.files[0])
-        onsubmit(e.target.files[0])
+        const File = e.target.files[0]
+        //console.log(e.target.files[0].type)
+        if (format.includes(File.type)) {
+            onsubmit(File)
+        }
     }
 
     const handleDropUpload =(file)=>{
-        //console.log(file)
-        onsubmit(file)
+        //console.log(file.type)
+        if (format.includes(file.type)) {
+            onsubmit(file)
+        }       
     }
 
     return(
